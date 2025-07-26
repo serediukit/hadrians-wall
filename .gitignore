@@ -2,3 +2,5 @@
 /.idea/hadrians-wall.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+
+/backend/.env
