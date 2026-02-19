@@ -1,4 +1,5 @@
 import {Board} from "@/components/shared/board";
+import {CohortList} from "@/components/shared/town/cohort-list";
 
 interface BoardTownProps {
     className?: string;
@@ -6,7 +7,8 @@ interface BoardTownProps {
 
 export const BoardTown = ({className}: BoardTownProps) => {
     return (
-        <Board imageUrl={'/1.jpeg'}>
+        <Board imageUrl={'/town.png'}>
+            <CohortList/>
         </Board>
     )
 }

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Hadrians Wall",
-    description: "The BoardTown Game",
+    description: "The Board Game",
 };
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {

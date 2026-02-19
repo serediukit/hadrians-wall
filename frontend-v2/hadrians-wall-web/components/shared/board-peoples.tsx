@@ -7,8 +7,7 @@ interface BoardProps {
 
 export const BoardPeoples = ({className}: BoardProps) => {
     return (
-        <Board>
-            board
+        <Board imageUrl={'/peoples.png'}>
         </Board>
     )
 }
