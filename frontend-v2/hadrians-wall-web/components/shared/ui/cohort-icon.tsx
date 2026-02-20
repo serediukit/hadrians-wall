@@ -7,7 +7,7 @@ interface Props {
 
 export const CohortIcon = ({className}: Props) => {
     return (
-        <div className={cn(className, 'size-5 justify-items-center items-center')}>
+        <div className={cn(className, 'size-4.5 justify-items-center items-center')}>
             <div className="flex h-full items-center">
                 <div
                     className='relative w-3.5 h-4.25 bg-red-700 outline-1 outline-black rounded-sm border border-amber-400'>

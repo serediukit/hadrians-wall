@@ -36,7 +36,7 @@ export const Cohort = ({direction, items, className}: Props) => {
 
                 <div className='flex gap-1 p-1'>
                     {items.map((item, index) => (
-                        <ImageCell item={item} key={index} />
+                        <ImageCell items={[item]} key={index} />
                     ))}
                 </div>
             </div>
