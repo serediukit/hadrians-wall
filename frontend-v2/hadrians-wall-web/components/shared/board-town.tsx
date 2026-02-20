@@ -8,7 +8,7 @@ interface BoardTownProps {
 export const BoardTown = ({className}: BoardTownProps) => {
     return (
         <Board imageUrl={'/town.png'}>
-            <CohortList/>
+            <CohortList className='outline-2 outline-yellow-300'/>
         </Board>
     )
 }

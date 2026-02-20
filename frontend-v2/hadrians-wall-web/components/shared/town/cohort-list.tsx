@@ -7,10 +7,10 @@ interface Props {
 
 export const CohortList = ({className}: Props) => {
     return (
-        <div className={cn(className, 'flex flex-row justify-between w-full h-16 px-8 py-4')}>
-            <Cohort className='flex-1' direction='left'>Cohort</Cohort>
-            <Cohort className='flex-1' direction='forward'>Cohort</Cohort>
-            <Cohort className='flex-1' direction='left'>Cohort</Cohort>
+        <div className={cn(className, 'flex flex-row justify-between w-full h-18 px-8 py-4')}>
+            <Cohort className='flex-1 outline-2 outline-yellow-300' direction='left'></Cohort>
+            <Cohort className='flex-1 outline-2 outline-yellow-300' direction='center'></Cohort>
+            <Cohort className='flex-1 outline-2 outline-yellow-300' direction='right'></Cohort>
         </div>
     )
 }

@@ -8,7 +8,7 @@ interface Props {
 
 export const Cell = ({className, children}: Props) => {
     return (
-        <div className={cn(className, 'm-auto size-5 outline-black outline-1')}>
+        <div className={cn(className, 'size-5 outline-black outline-1')}>
             {children}
         </div>
     )
