@@ -3,7 +3,8 @@ import {ArrowCell} from "@/components/shared/ui/arrow-cell";
 import {Cell} from "@/components/shared/ui/cell";
 import {CohortIcon} from "@/components/shared/ui/cohort-icon";
 import {SellTitle} from "@/components/shared/ui/sell-title";
-import {ImageCell} from "@/components/shared/ui/image-cell";
+import {ProgressiveCell} from "@/components/shared/ui/progressive-cell";
+import {IconsCell} from "@/components/shared/ui/icons-cell";
 
 interface Props {
     direction: string;
@@ -11,13 +12,7 @@ interface Props {
     className?: string;
 }
 
-const defaultItems: string[] = [
-    '','','/1.jpeg','','/1.jpeg','/1.jpeg'
-]
-
 export const Cohort = ({direction, items, className}: Props) => {
-    items = items ? items : defaultItems;
-
     return (
         <div className={cn(className, 'mx-2 my-1 flex items-center')}>
             <div className='w-full flex flex-row justify-between items-center bg-red-700'>
@@ -36,7 +31,9 @@ export const Cohort = ({direction, items, className}: Props) => {
 
                 <div className='flex gap-1 p-1'>
                     {items.map((item, index) => (
-                        <ImageCell items={[item]} key={index} />
+                        <ProgressiveCell key={index}>
+                            <IconsCell items={[item]}/>
+                        </ProgressiveCell>
                     ))}
                 </div>
             </div>

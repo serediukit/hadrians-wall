@@ -8,8 +8,8 @@ interface Props {
 }
 
 const variants: Record<string, string> = {
-    'default': 'size-5 outline-black outline-1 p-px',
-    'double': 'h-5 w-10 outline-black outline-1 p-px'
+    'default': 'size-5 p-px',
+    'double': 'h-5 w-10 p-px'
 }
 
 export const Cell = ({className, variant, children}: Props) => {

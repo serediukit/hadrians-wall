@@ -1,6 +1,6 @@
 import {cn} from "@/lib/utils";
 import {Cohort} from "@/components/shared/town/cohort";
-import {iconBlackRaven, iconKnightHelmet} from "@/public/const";
+import {iconBlackRaven, iconKnightHelmet, resHelmet, resRaven} from "@/public/const";
 import {Separator} from "@/components/shared/ui/separator";
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const defaultItems: string[] = [
-    '', '', iconKnightHelmet, '', iconBlackRaven, iconKnightHelmet
+    '', '', resHelmet, '', resRaven, resHelmet
 ]
 
 export const CohortList = ({className}: Props) => {
