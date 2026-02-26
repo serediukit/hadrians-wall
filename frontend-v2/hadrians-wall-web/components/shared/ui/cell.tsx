@@ -1,20 +1,15 @@
 import {cn} from "@/lib/utils";
 import {RiArrowUpLine} from "@remixicon/react";
+import React from "react";
 
 interface Props {
     className?: string;
-    variant?: string;
     children?: React.ReactNode;
 }
 
-const variants: Record<string, string> = {
-    'default': 'size-5 p-px',
-    'double': 'h-5 w-10 p-px'
-}
-
-export const Cell = ({className, variant, children}: Props) => {
+export const Cell = ({className, children}: Props) => {
     return (
-        <div className={cn(className, variant ? variants[variant] : variants['default'])}>
+        <div className={cn('h-5 min-w-5 p-px', className)}>
             {children}
         </div>
     )

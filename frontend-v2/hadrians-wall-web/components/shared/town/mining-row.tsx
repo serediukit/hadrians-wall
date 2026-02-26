@@ -19,25 +19,25 @@ export const MiningRow = () => {
 
             <div className='basis-1/3 flex flex-row justify-between items-center px-4'>
                 <ProgressiveCell/>
-                <ProgressiveCell variant='double'><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
+                <ProgressiveCell><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
                 <ProgressiveCell/>
                 <ProgressiveCell/>
             </div>
 
             <div className='basis-1/3 flex flex-row justify-between items-center px-2'>
-                <ProgressiveCell variant='double'><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
+                <ProgressiveCell><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
                 <ProgressiveCell/>
                 <ProgressiveCell/>
-                <ProgressiveCell variant='double'><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
+                <ProgressiveCell><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
                 <ProgressiveCell/>
             </div>
 
             <div className='basis-1/3 flex flex-row justify-between items-center pl-2 pr-1'>
                 <ProgressiveCell/>
-                <ProgressiveCell variant='double'><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
+                <ProgressiveCell><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
                 <ProgressiveCell/>
                 <ProgressiveCell/>
-                <ProgressiveCell variant='double'><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
+                <ProgressiveCell><IconsCell items={[resPickaxe, resStone]}/></ProgressiveCell>
             </div>
         </div>
     )
